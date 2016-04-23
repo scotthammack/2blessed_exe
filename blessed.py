@@ -20,7 +20,7 @@ auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
 word2 = None
-prefixes = [ 'un', 'in', 'im', 'non', 'dis', 'de' ]
+prefixes = [ 'un', 'in', 'im', 'non', 'dis', 'de', 'ir', 'a', 'an' ]
 
 def is_adj(word):
 	# to determine whether the result is a viable adjective, check it
